@@ -1,0 +1,19 @@
+.previous_parties {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.carousel-link {
+    display: block;
+    /* overflow: hidden; */
+}
+
+.carousel-img {
+    transition: transform 0.2s;
+}
+
+.carousel-img:hover {
+    transform: scale(1.01);
+}
+

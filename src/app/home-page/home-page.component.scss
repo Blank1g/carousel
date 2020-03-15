@@ -1,0 +1,54 @@
+a.button {
+    color: black;
+    text-decoration: none;
+    user-select: none;
+    background: whitesmoke;
+    padding: 0.7em 1.5em;
+    font: 16pt arial;
+}
+
+a.button:hover {
+    background: rgba(255, 255, 255, 0.582);
+}
+
+a.button:active {
+    background: rgba(255, 255, 255, 0.45);
+}
+
+.centreabovebutton {
+    text-align: center;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.centrebutton {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#abovebutton1 {
+    color: white;
+    font: 44px arial;   
+}
+
+#abovebutton2 {
+    color: white;
+    font: 18px arial;
+}
+
+.map {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.img1 {
+    text-align: center;
+}
+.end {
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    font: 14px arial;
+}

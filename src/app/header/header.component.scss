@@ -1,0 +1,68 @@
+#header1 {
+    display: flex;
+    flex-direction: column;
+    font: 20pt Arial;
+}
+
+.rovno2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.rovno3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.rovnoli {
+    padding: 5px 10px;
+}
+
+.rovnoli:first-child {
+    padding-left: 0;
+}
+
+.rovnoli:last-child {
+    padding-right: 0;
+}
+
+.rovnoliimg {
+    margin: 0px 10px;
+}
+
+.rovnoliimg:first-child {
+    padding-left: 0;
+}
+
+.rovnoliimg:last-child {
+    padding-right: 0;
+    margin-right: 0;
+}
+
+#header1_1 {
+    color: white;
+    font-size: 24px;
+}
+
+#header2_2 {
+    color: white;
+    font-size: 18px;
+}
+
+#header2_2:hover {
+    color: rgba(255, 255, 255, 0.507);
+    transition: all 0.2s;
+}
+
+.inst {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+.telega {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
