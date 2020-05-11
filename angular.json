@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "carousel-main": {
@@ -28,8 +28,9 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.scss"
-            ],
+            ], 
             "scripts": []
           },
           "configurations": {
@@ -123,6 +124,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "carousel-main"
+    }
+  },
+  "defaultProject": "carousel-main",
+  "cli": {
+    "analytics": "197c74cb-14f1-47f6-bc27-c86069ed62db"
+  }
 }

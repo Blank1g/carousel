@@ -12,6 +12,7 @@ import { PreviousPartiesComponent } from './previous-parties/previous-parties.co
 import { Carousel1Component } from './carousel1/carousel1.component';
 import { Carousel2Component } from './carousel2/carousel2.component';
 import { ContactsComponent } from './contacts/contacts.component';
+import { BootstrapComponent } from './bootstrap/bootstrap.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ContactsComponent } from './contacts/contacts.component';
     PreviousPartiesComponent,
     Carousel1Component,
     Carousel2Component,
-    ContactsComponent
+    ContactsComponent,
+    BootstrapComponent
   ],
   imports: [
     BrowserModule,
